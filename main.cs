@@ -1,6 +1,6 @@
 using System;
   
-namespace HelloWorldApp {
+namespace Main {
       
     class program {
           
