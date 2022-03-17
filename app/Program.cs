@@ -17,24 +17,13 @@ namespace Main {
           
         static void Main(string[] args) {
 
-            Console.WriteLine("Hello, this is the setup phase!");
-            // Wait (1)
-            Console.WriteLine("Please write down the information below.");
-            Console.WriteLine("(Click to continue)");
-
             // I haven't written C# code in a while, so please forgive my style.
-            Console.ReadLine();
-            Console.WriteLine("What is your name?");
-            string userName = Console.ReadLine();   // Degenerate's name.
+            Console.WriteLine("Hello! What's your name?");
+            string userName = Console.ReadLine();
 
-            Console.WriteLine("Wondeful to meet you, " + userName);
-            // Wait (1)
+            Console.WriteLine("Wondeful to meet you, " + userName + ".");
 
-            /*  
-                (Broken Code)
-                Console.WriteLine("What is your gender?");
-                string userSex = Console.ReadLine();
-            */
+            // I like how easily you can abuse the code.
 
             /* 
                 Find a way to make choice options, instead of allowing the user
@@ -52,15 +41,35 @@ namespace Main {
                 needing to use stupid boolean values.
             */
 
-            /*
-            (Still more broken code for later)
-            if (userSex == 'female') then
-            Console.WriteLine = ("Hey, I have those!");
+            // This sould be a dating sim game tbh.
+
+            Console.ReadLine();
+            Console.WriteLine("Very interesting, well, I hope you have an even better day tomorrow <3");
+            // Man, I would kill for a wife like this lol.
+
+            Console.ReadLine();
+            Console.WriteLine("<3");
+            Console.WriteLine("What is your favourite color," + username + "?");
+
+            string userColour = Console.ReadLine();
+            Console.WriteLine(userColour + "? Personally I like pink :>");
+            Console.ReadLine();
+
+            Console.WriteLine("Do you like big breasted woman?");
+
+            /* 
+                This comment used to be funny. If you want to know what it was,
+                email me @ Tortilaboi@gmail.com
             */
 
             Console.ReadLine();
-            
-            
+            Console.WriteLine("I'm going to assume so. My cup F sized breast shouldn't go to waste you know!");
+
+            /*
+                It may have ruined my search history, but at least it is
+                confirmed that, in fact, Emily Chan has anime sized tities.
+            */
+
             Console.ReadKey();
         }
     }
