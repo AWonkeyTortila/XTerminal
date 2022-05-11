@@ -12,7 +12,7 @@ void main(){
 
 	scanf("%s", userName);
 
-	printf("Hello, %s", userName);
+	printf("Hello %s! How is your day?", userName);
 
 	getchar();
 }
