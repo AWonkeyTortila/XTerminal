@@ -6,13 +6,19 @@
 void main(){
 
 	printf("Hello, my name is Emily Chan! What's yours?\n");
-	/* And to adress the infamous comment,
-	no, Emily Chan is not bisexual, bruh. */
+	
 	char userName[100];
 
 	scanf("%s", userName);
+	// '%s' is for strings, obviously.
 
 	printf("Hello %s! How is your day?", userName);
+
+	scanf();
+
+	// If & Then statements. so 'if 'ok' then, wonderful!'
+
+	printf("");
 
 	getchar();
 }
